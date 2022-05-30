@@ -7,8 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page</title>
     <link rel="stylesheet" href="assets/css/style.css">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
-
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.1.1/css/all.css">
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/png">
 </head>
 
 <body>
@@ -26,16 +26,21 @@
                         <!-- Search SingIn LogIn -->
                         <section class="main__authentication">
                             <section class="search">
-                                <i class="fa-solid fa-magnifying-glass"></i>
-                                <span>جستجو</span>
+                                <a href="#">
+                                    <i class="fa-regular fa-magnifying-glass"></i> <span>جستجو</span>
+                                </a>
                             </section>
                             <section class="singIn">
-                                <i class="fa-thin fa-arrow-right-to-arc"></i>
-                                <span>ورود</span>
+                                <a href="signIn_login.html">
+                                    <i class="fa-regular fa-arrow-right-to-arc"></i>
+                                    <span>ورود</span>
+                                </a>
                             </section>
                             <section class="logIn">
-                                <i class="fa-light fa-user"></i>
-                                <span>ثبت نام</span>
+                                <a href="signIn_login.html">
+                                    <i class="fa-regular fa-user"></i>
+                                    <span>ثبت نام</span>
+                                </a>
                             </section>
                         </section>
                         <!-- Main button -->
@@ -74,22 +79,19 @@
                     </li>
                 </ul>
             </nav>
+            <section class="main__text__header">
+                <h1>بازار آنلاین برای فروش، خرید و اشتراک منابع آموزشی </h1>
+            </section>
         </div>
         <div class="container">
             <section class="main__container">
                 <section class="hero__img">
                     <img src="assets/images/hero.png" alt="Hero Image">
                 </section>
-                <section class="main__paragraph__hero">
-                    <section class="main__text__header">
-                        <h1>بازار آنلاین برای فروش، خرید و اشتراک منابع آموزشی </h1>
-                    </section>
-
+                <section class="main__train__search ">
                     <!-- train search -->
-                    <section class="main__train__search">
-                        <input type="text" placeholder="آموزش مورد نظر خود را جستجو کنید">
-                        <button class="main__btn">جستجو</button>
-                    </section>
+                    <input type="text" placeholder="آموزش مورد نظر خود را جستجو کنید">
+                    <button class="main__btn  btn_hover">جستجو</button>
                 </section>
             </section>
         </div>
@@ -132,10 +134,46 @@
             <div class="container">
                 <section class="products">
                     <section class="product__one">
-                        <img src="assets/images/main__product/334.png" alt="">
+                        <img src="assets/images/main__product/334.png" alt="Product one">
+                        <ul>
+                            <li>نام محصول</li>
+                            <li>نام فروشگاه</li>
+                            <li>
+                                <a href="#" class="text__purple">نوع فایل</a>
+                            </li>
+                            <li>موضوع</li>
+                            <li>منابع</li>
+                            <li>مناسب برای پایه</li>
+                            <div class="product__one__cart">
+                                <p>120,000 تومان</p>
+                                <div class="star__icon">
+                                    <i class="fa-regular fa-bookmark"></i>
+                                    <img src="assets/images/star/Group 38.png" alt="star">
+                                </div>
+                                <button class="main__btn p-20">افزودن به سبد خرید</button>
+                            </div>
+                        </ul>
+
+
                     </section>
                     <section class="product__two">
-                        <img src="assets/images/main__product/3851259.png" alt="">
+                        <img src="assets/images/main__product/3851259.png" alt="Product two">
+                        <ul>
+                            <li>نام فروشگاه</li>
+                            <li>موضوع مورد فعالیت</li>
+                            <li>
+                                <a href="#" class="text__purple">پایه</a>
+                            </li>
+                            <li><span class="text__purple">29</span> دنبال کننده</li>
+                            <li><span class="text__purple">29</span> نظر </li>
+                            <li><span class="text__purple">27</span> محصول </li>
+                            <li>مناسب برای پایه</li>
+                            <div class="product__two__cart">
+                                <i class="fa-regular fa-user"></i>
+                                <img src="assets/images/star/Group 38.png" alt="star">
+                                <button class="main__btn p-20">رفتن به فروشگاه</button>
+                            </div>
+                        </ul>
                     </section>
                 </section>
             </div>
@@ -159,6 +197,19 @@
             </div>
         </section>
 
+        <!-- Access Product-->
+        <section class="access">
+            <h2>دسترسی محصولات براساس</h2>
+            <img src="assets/images/line.png" alt="Line">
+        </section>
+
+        <!-- Main Access Product  -->
+
+        <section class="main__access_product">
+            <section class="product__access"></section>
+            <section class="product__access"></section>
+            <section class="product__access"></section>
+        </section>
 
     </main>
 
@@ -166,6 +217,7 @@
     <footer>
 
     </footer>
+
 </body>
 
 </html>

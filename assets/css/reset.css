@@ -136,7 +136,7 @@ table {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: iranyekan, sans-serif !important;
+    font-family: iranyekan, sans-serif;
 }
 
 .nav>li>a,
