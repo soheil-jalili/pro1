@@ -28,6 +28,7 @@
     -moz-transition: all ease .3s;
     -ms-transition: all ease .3s;
     -o-transition: all ease .3s;
+    font-weight: bold;
 }
 
 .p-20 {
@@ -43,10 +44,16 @@
     background-color: #ffff;
     border: 1px solid #9932CC;
     font-weight: bold;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
 }
 
 button.main__btn.p-20:hover {
     background-color: #ffff;
     color: #9932CC;
-    font-weight: bold;
+    box-shadow: rgba(153, 50, 204, 0.6) 0px 0px 5px;
+}
+
+::selection {
+    background-color: #9932CC;
+    color: #fff;
 }

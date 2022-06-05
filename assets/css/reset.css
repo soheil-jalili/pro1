@@ -167,3 +167,7 @@ input {
 ul li {
     list-style-type: none;
 }
+
+p {
+    font-weight: 400;
+}
