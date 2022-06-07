@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="assets/css/order_product/order_product.css">
     <link rel="stylesheet" href="assets/css/footer.css">
     <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.1.1/css/all.css">
+
+
 </head>
 
 <body>
@@ -17,12 +19,51 @@
     <!-- ========== Start Header ========== -->
     <header class="main__header__order">
         <section class="container">
-            <section class="main__logo">
-                <a href="#">
-                    <img src="assets/images/logo.png" alt="Logo" class="logo">
-                </a>
-            </section>
+            <section class="main__accessory">
+                <section class="main__logo">
+                    <a href="#">
+                        <img src="assets/images/logo.png" alt="Logo" class="logo">
+                    </a>
+                </section>
 
+
+                <section class="search__shop">
+
+                    <form action="#" method="post">
+                        <!-- Search bar -->
+                        <section class="search__bar">
+                            <input type="text" placeholder="جستجو" class="search">
+                            <button type="submit">
+                                <img src="assets/images/search_img/search.png" alt="search" width="30px"
+                                    class="search_img">
+                            </button>
+                        </section>
+                        <div class="border__line"></div>
+
+                        <section class="shop__basket">
+                            <img src="assets/images/basket/Group 290.png" alt="Basket Shop">
+                            <select name="shop" id="basket">
+                                <option value="سبد خرید">
+                                    سبد خرید
+                                </option>
+                            </select>
+                        </section>
+                        <div class="border__line"></div>
+                        <section class="user__info">
+                            <img src="assets/images/user/user (1).png" alt="User">
+                            <select name="user" id="useer">
+                                <option value="نام و نام خانوادگی کاربر">
+                                    نام و نام خانوادگی کاربر
+                                </option>
+                            </select>
+                        </section>
+
+
+                        <!-- Main button -->
+                        <button class="main__btn p-20" type="submit">ایجاد فروشگاه رایگان</button>
+                    </form>
+                </section>
+            </section>
             <section class="main__nav">
                 <nav class="menu">
                     <ul>
@@ -65,7 +106,55 @@
                 <div class="border__line"></div>
                 <a href="#">دریافت سفارش محصولات</a>
             </section>
-            <table></table>
+
+            <!-- ========== Start Table ========== -->
+            <table class="main__table ">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>شماره سفارش</th>
+                        <th>تاریخ ثبت سفارش</th>
+                        <th>مبلغ پرداخت شده</th>
+                        <th>جزئیات</th>
+                        <th>مشخصات خریدار</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="text__purple">1</td>
+                        <td>123456789</td>
+                        <td>1399/10/11</td>
+                        <td class="text__brown">200,000 تومان</td>
+                        <td class="text__info">نمایش جزئیات</td>
+                        <td class="text__blue">نمایش مشخصات</td>
+                    </tr>
+                    <tr>
+                        <td class="text__purple">2</td>
+                        <td>123456789</td>
+                        <td>1399/10/11</td>
+                        <td class="text__brown">200,000 تومان</td>
+                        <td class="text__info">نمایش جزئیات</td>
+                        <td class="text__blue">نمایش مشخصات</td>
+                    </tr>
+                    <tr>
+                        <td class="text__purple">3</td>
+                        <td>123456789</td>
+                        <td>1399/10/11</td>
+                        <td class="text__brown">200,000 تومان</td>
+                        <td class="text__info">نمایش جزئیات</td>
+                        <td class="text__blue">نمایش مشخصات</td>
+                    </tr>
+                    <tr>
+                        <td class="text__purple">4</td>
+                        <td>123456789</td>
+                        <td>1399/10/11</td>
+                        <td class="text__brown">200,000 تومان</td>
+                        <td class="text__info">نمایش جزئیات</td>
+                        <td class="text__blue">نمایش مشخصات</td>
+                    </tr>
+                </tbody>
+            </table>
+            <!-- ========== End Table ========== -->
 
             <section class="main__pagination">
                 <a href="#">
@@ -75,7 +164,7 @@
                 <a href="#" class="text__purple pagination__item">
                     1
                 </a>
-                <a href="#" class="text__purple pagination__item">
+                <a href="#" class="light__black pagination__item">
                     2
                 </a>
 
