@@ -6,40 +6,97 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SignIn & Login</title>
+    <link rel="shortcut icon" href="assets/images/logo.ico" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/signIn_login_style/signIn_login.css">
+    <link rel="stylesheet" href="assets/css/order_product/order_product.css">
 </head>
+
 
 <body>
     <main>
         <section class="container">
-            <img src="assets/images/signUp_login/Group 291.png" alt="SignUp Login Photo">
+            <section class="main__container">
+                <section class="main__img">
+                    <img src="assets/images/signUp_login/Group 291.png" alt="SignUp Login Photo" class="signIn__login__pic">
 
-            <section class="header__form">
-                <a href="#">ورود</a>
-                <a href="#">ثبت نام</a>
+                </section>
+
+                <section class="main__form">
+
+                    <section class="header__form">
+                        <a href="#">ورود</a>
+                        <a href="#" class="text__purple">ثبت نام</a>
+                    </section>
+
+                    <form method="post" enctype="multipart/form-data">
+                        <section class="main__username">
+                            <label for="username">نام کاربری</label>
+                            <input type="text" id="username" name="username">
+                        </section>
+                        <section class="main__option__education">
+                            <label for="incomeEducation">میزان تحصیلات</label>
+                            <select name="education" id="incomeEducation">
+                                <option value="دیپلم">دیپلم</option>
+                                <option value="لیسانس">لیسانس</option>
+                                <option value="فوق لیسانس">فوق لیسانس</option>
+                            </select>
+                        </section>
+
+                        <section class="main__mail__password">
+                            <section class="main__password">
+                                <label for="password">پسورد</label>
+                                <input type="password" name="password" id="password">
+                            </section>
+
+                            <section class="main__mail">
+                                <label for="email">ایمیل</label>
+                                <input type="email" name="email" id="email">
+                            </section>
+                        </section>
+
+
+                        <section class="radio__sex">
+                            <label class="text__bold">جنسیت</label>
+
+                            <label for="man">
+                                مذکر
+                                <input type="radio" value="man" id="man" name="sex">
+                            </label>
+
+                            <label for="woman">
+                                مونث
+                                <input type="radio" value="woman" id="woman" name="sex">
+                            </label>
+                        </section>
+
+
+                        <section class="checkbox__job">
+                            <label class="text__bold">وضعیت شغل</label>
+
+                            <label for="student">
+                                محصل
+                                <input type="checkbox" id="student">
+                            </label>
+                            <label for="student" for="employed">
+                                شاغل
+                                <input type="checkbox" id="employed">
+                            </label>
+                            <label for="graduated">
+                                فارغ التحصیل
+                                <input type="checkbox" id="graduated">
+                            </label>
+                        </section>
+
+                        <section class="main__btn__sign">
+                            <button class="main_signIn__btn" type="submit" name="signIn">ثبت نام</button>
+                        </section>
+
+                    </form>
+                    <button class="btn__google" type="submit">
+                        <img src="assets/images/google_pic/search.png" alt="google">
+                        ثبت نام با گوگل</button>
+                </section>
             </section>
-
-            <section class="main__form">
-                <form method="post" enctype="multipart/form-data">
-                    <label for="usernaem">نام کاربری</label>
-                    <input type="text" id="username" name="username">
-
-                    <label for="incomeEducation">میزان تحصیلات</label>
-                    <select name="education" id="incomeEducation">
-                          <option value="دیپلم">دیپلم</option>
-                          <option value="لیسانس">لیسانس</option>
-                          <option value="فوق لیسانس">فوق لیسانس</option>
-                      </select>
-
-                    <label for="password">پسورد</label>
-                    <input type="password" name="password">
-
-                    <label for="email">ایمیل</label>
-                    <input type="email" name="email" id="email">
-                </form>
-
-            </section>
-
-
         </section>
     </main>
 </body>

@@ -1,0 +1,139 @@
+/* reset & font */
+
+@import url('./reset.css');
+@import url('./fonts.css');
+
+/* Footer */
+
+.main__footer {
+    background-color: #F8F8F8;
+    border-top-right-radius: 20%;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.sub__footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.right__side__footer img {
+    width: 160px;
+    margin: -20px 0;
+}
+
+.right__side__footer p {
+    width: 50%;
+    line-height: 2;
+    color: #707070;
+    margin: 30px 0;
+}
+
+.signIn__make__shop {
+    background-color: #ffff;
+    margin-top: 80px;
+    max-width: 80%;
+    padding: 20px 26px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 13px;
+    -webkit-border-radius: 13px;
+    -moz-border-radius: 13px;
+    -ms-border-radius: 13px;
+    -o-border-radius: 13px;
+}
+
+.signIn__make__shop a:first-child {
+    font-weight: bold;
+}
+
+.line__left {
+    border-left: 2px solid #BCBEC0;
+    padding: 0;
+}
+
+.signIn__make__shop a:last-child {
+    font-weight: 400;
+}
+
+.center__side {
+    padding: 20px 30px;
+}
+
+.center__side ul {
+    padding: 20px 0;
+}
+
+.center__side ul li {
+    padding: 19px 0;
+}
+
+.center__side ul li a {
+    font-weight: 400;
+    color: #2B2B29;
+}
+
+.center__side h3 {
+    padding: 0 30px;
+}
+
+.left__side {
+    padding: 20px 30px;
+}
+
+.social__media__box {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20px;
+    border-radius: 13px;
+    -webkit-border-radius: 13px;
+    -moz-border-radius: 13px;
+    -ms-border-radius: 13px;
+    -o-border-radius: 13px;
+    margin: 20px 0;
+}
+
+.social__media__box img {
+    width: 40px;
+}
+
+.contact__us {
+    padding: 15px 4px;
+}
+
+.contact__us p {
+    text-align: left;
+    margin-top: 25px;
+    color: #2B2B29;
+}
+
+.electronic__symbol {
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.electronic__symbol img {
+    width: 100px;
+}
+
+
+/* End Footer */
+
+.end__footer {
+    background-color: #9932CC;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    width: 100%;
+}
+
+.end__footer h2 {
+    font-size: 15px;
+}

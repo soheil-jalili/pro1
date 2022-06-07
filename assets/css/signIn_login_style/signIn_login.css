@@ -1,0 +1,234 @@
+@import url('../fonts.css');
+@import url('../reset.css');
+.container {
+    max-width: 1340px;
+    margin: 0 auto;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    overflow-x: hidden;
+    justify-content: center;
+}
+
+form {
+    font-weight: 400;
+}
+
+.text__bold {
+    font-weight: 580;
+}
+
+.text__purple {
+    color: #9932cc;
+    font-weight: 500;
+}
+
+.btn__google {
+    background-color: #ffff;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    box-shadow: rgba(153, 50, 204, 0.6) 0px 0px 5px;
+    padding: 9px 60px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    cursor: pointer;
+    margin: 20px 30px;
+    width: 100%;
+    animation: btnMove 5s infinite;
+    -webkit-animation: btnMove 2s infinite;
+}
+
+.btn__google img {
+    vertical-align: middle;
+    width: 20px;
+}
+
+.signIn__login__pic {
+    width: 500px;
+    margin: 0 10px;
+}
+
+.main__form {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    margin: 10px 100px;
+}
+
+.main__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__form {
+    background-color: #F8F8F8;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 38px;
+    margin: 20px 30px;
+    padding: 7px 20px;
+    align-items: center;
+}
+
+.header__form>a {
+    margin: 0 30px;
+}
+
+.header__form a:first-of-type {
+    font-weight: 500;
+}
+
+.header__form a:last-of-type {
+    border-bottom: 2px solid #9932cc;
+    padding-bottom: 10px;
+}
+
+
+/* input */
+
+input[name='username'] {
+    background-color: #F9F9F9;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+    border: 2px solid #BCBEC0;
+    font-size: 15px;
+}
+
+.main__option__education select {
+    background-color: #F9F9F9;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+    border: 2px solid #BCBEC0;
+    font-size: 15px;
+    outline: none;
+}
+
+input[name='password'] {
+    background-color: #F9F9F9;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+    border: 2px solid #BCBEC0;
+    font-size: 14px;
+}
+
+input[name='email'] {
+    background-color: #F9F9F9;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+    border: 2px solid #BCBEC0;
+    font-size: 15px;
+}
+
+form>section>input,
+select {
+    width: 100%;
+    padding: 7px 20px;
+    margin: 20px 30px;
+}
+
+form>section>label {
+    margin: 20px 30px;
+    color: #2B2B29;
+}
+
+.main__mail__password {
+    display: flex;
+    justify-content: space-around;
+}
+
+.main__mail__password>section>input {
+    width: 100%;
+    margin: 20px 30px;
+    padding: 5px 30px;
+}
+
+.main__mail__password>section>label {
+    margin: 20px 30px;
+    color: #2B2B29;
+}
+
+.main__mail__password>section {
+    margin: 0 10px;
+}
+
+.main_signIn__btn {
+    background-color: #9932CC;
+    color: #fff;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    padding: 10px 80px;
+    margin: 20px 30px;
+    cursor: pointer;
+    transition: all ease .2s;
+    -webkit-transition: all ease .2s;
+    -moz-transition: all ease .2s;
+    -ms-transition: all ease .2s;
+    -o-transition: all ease .2s;
+}
+
+.main__btn__sign {
+    display: flex;
+    justify-content: center;
+}
+
+
+/* radio buttons */
+
+.radio__sex {
+    margin: 30px 14px;
+}
+
+
+/* checkbox buttons */
+
+.checkbox__job {
+    margin: 30px 14px;
+}
+
+.main__btn__sign>button:hover {
+    background-color: #ffff;
+    color: #9932CC;
+    box-shadow: rgb(153 50 204 / 60%) 0px 0px 5px;
+}
+
+::selection {
+    background-color: #9932CC;
+    color: #fff;
+}
+
+@keyframes btnMove {
+    50% {
+        box-shadow: rgba(153, 50, 204, 0.6) 0px 0px 16px;
+    }
+}
