@@ -107,6 +107,7 @@ button.main__btn.p-20:hover {
 
 .search__bar button img {
     width: 19px;
+    cursor: pointer;
 }
 
 .search__bar button {
